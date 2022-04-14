@@ -10,7 +10,7 @@ source:
   sha256: fe0fd617f2b539fcd699f9e4fad90d552eea3d4f9b8aa69121cdafc9cbdb4bca
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
   script:
     - cp -r $SRC_DIR $SP_DIR/{{ name }}
